@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Wallet -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M50,70L150,70A10,10 0,0 1,160 80L160,140A10,10 0,0 1,150 150L50,150A10,10 0,0 1,40 140L40,80A10,10 0,0 1,50 70z" />
+
+    <!-- Wallet Inner -->
+    <path
+        android:fillColor="@color/secondary"
+        android:pathData="M55,75L145,75A5,5 0,0 1,150 80L150,140A5,5 0,0 1,145 145L55,145A5,5 0,0 1,50 140L50,80A5,5 0,0 1,55 75z" />
+
+    <!-- Card Slot -->
+    <path
+        android:fillColor="@color/tertiary"
+        android:pathData="M65,95L135,95A5,5 0,0 1,140 100L140,120A5,5 0,0 1,135 125L65,125A5,5 0,0 1,60 120L60,100A5,5 0,0 1,65 95z" />
+
+    <!-- Card -->
+    <path
+        android:fillColor="@color/accent"
+        android:pathData="M65,45L125,45A5,5 0,0 1,130 50L130,90A5,5 0,0 1,125 95L65,95A5,5 0,0 1,60 90L60,50A5,5 0,0 1,65 45z" />
+
+    <!-- Card Chip -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M75,60L85,60A3,3 0,0 1,88 63L88,67A3,3 0,0 1,85 70L75,70A3,3 0,0 1,72 67L72,63A3,3 0,0 1,75 60z" />
+
+    <!-- Card Lines -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M70,80L110,80A2,2 0,0 1,112 82L112,82A2,2 0,0 1,110 84L70,84A2,2 0,0 1,68 82L68,82A2,2 0,0 1,70 80z" />
+
+    <!-- Coins -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M150,45m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0" />
+    
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M150,45m-16,0a16,16 0,1 1,32 0a16,16 0,1 1,-32 0" />
+    
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M130,60m-15,0a15,15 0,1 1,30 0a15,15 0,1 1,-30 0" />
+    
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M130,60m-11,0a11,11 0,1 1,22 0a11,11 0,1 1,-22 0" />
+    
+    <!-- $ Symbol on Coin -->
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M150,41L150,49M147,43L153,43M147,47L153,47"
+        android:strokeWidth="2"
+        android:strokeColor="#FFA000"
+        android:strokeLineCap="round" />
+</vector> 
